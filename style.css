@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+.main-icon {
+    height: 35px;
+    width: 35px;
+    stroke: orange;
+}
+
+.header {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    max-width: 1200px;
+    margin: auto auto;
+}
+
+.left-link {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.right-link{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header a:link,
+.header a:visited {
+    color: #495057;
+}
+
+.header a:hover,
+.header a:active {
+    color: black;
+}
+
+.right-nav {
+    margin-left: auto;
+}
+
+.right-icon{
+    height: 30px;
+    width: 30px;
+}
+
+
+main{
+    height: 600px;
+    background-size: cover;
+    background-image: linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)), url(img2.jpg);
+    color: white;
+}
+
+.tag-line{
+    font-size: 60px;
+    margin-bottom: 32px;
+    line-height: 1.05;
+    padding-left: 50px;
+    padding-top: 150px;
+    text-decoration: underline;
+}
+
+.tag-line span{
+    color: orange;
+}
+
+
+.grid{
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    column-gap: 70px;
+    row-gap: 70px;
+    width: 70%;
+    height: auto;
+}
+
+.watch{
+    padding: 10px 10px;
+}
+
+.content {
+    background-color: white;
+    padding: 0 20px;
+    border-radius: 20px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 20px 30px 5px rgba(0, 0, 0, 0.07);
+    transition: box-shadow 0.3s ease;
+}
+
+.content:hover {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+
+.watch-img1{
+    height: 250px;
+}
+
+.info a{
+    display: inline-block;
+}
+
+.info{
+    line-height: 55px;
+}
+
+.cost{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.info a{
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(246, 221, 174);
+    background-color: orange;
+    padding: 0 20px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.info a:hover{
+    background-color: rgb(246, 221, 174);
+    color: orange;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f8f9fa;
+}
